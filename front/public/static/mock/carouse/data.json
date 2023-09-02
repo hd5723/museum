@@ -1,0 +1,24 @@
+
+{
+  "success" : {
+    "code" : 200 ,
+    "message" : "成功",
+    "data" :[
+      {"picture": "../../static/imgs/home/dgfgew.jpg" , "title": "" , "subTitle": "" },
+      {"picture": "../../static/imgs/home/fhefg.jpg" , "title": "" , "subTitle": ""},
+      {"picture": "../../static/imgs/home/fhryef.png" , "title": "" , "subTitle": ""},
+      {"picture": "../../static/imgs/home/gfdre.jpg" , "title": "" , "subTitle": ""},
+      {"picture": "../../static/imgs/home/mawangdui19202019.jpg" , "title": "" , "subTitle": ""},
+      {"picture": "../../static/imgs/home/shgdwe.jpg" , "title": "" , "subTitle": ""},
+      {"picture": "../../static/imgs/home/web1920X1080.jpg" , "title": "" , "subTitle": ""}
+    ]
+  } ,
+  "fail" : {
+    "code" : 400 ,
+    "message" : "请求失败，请稍后再试！"
+  }
+}
+
+
+
+
