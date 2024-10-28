@@ -13,7 +13,7 @@
         >
           <div class="logo" style="width: 10%;" >
             <router-link to="/">
-              <span style="width: 240px; position: absolute; top: 20px; left: 60px; ">罗刹海市博物馆</span>
+              <span style="width: 240px; position: absolute; top: 20px; left: 60px; ">熵渊-数字智能化生产工具</span>
               <img  src="./assets/logo.png" style="height: 50px;" alt />
             </router-link>
           </div>
@@ -73,7 +73,7 @@
           </el-row>
 
           <div class="mod_help">
-            <p class="coty">博物馆版权所有 &copy; 2012-2021 XXXX</p>
+            <p class="coty">熵渊科技版权所有 &copy; 2012-2021 XXXX</p>
           </div>
 
         </div>
