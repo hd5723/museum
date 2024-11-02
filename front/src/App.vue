@@ -27,20 +27,23 @@
               <el-menu-item index="/tob/datamodel" >数据建模</el-menu-item>
               <el-menu-item index="/tob/bigdata" >大数据应用</el-menu-item>
             </el-sub-menu>
-
+            <el-sub-menu>
+              <template #title>To c</template>
+              <el-menu-item index="/toc/datamanage" >数据资产管理</el-menu-item>
+              <el-menu-item index="/toc/aidataanalysis" >AI数据分析应用</el-menu-item>
+              <el-menu-item index="/toc/datamodel" >数据建模</el-menu-item>
+              <el-menu-item index="/toc/bigdata" >大数据应用</el-menu-item>
+            </el-sub-menu>
           </el-sub-menu>
-          <el-sub-menu index="/about" >
+          <el-sub-menu index="/solution" >
             <template #title>解决方案</template>
-            <el-menu-item index="/about/gk">概況</el-menu-item>
-            <el-menu-item index="/about/ls">历史</el-menu-item>
+            <el-menu-item index="/about/gk">解决方案</el-menu-item>
           </el-sub-menu>
 
-          <el-menu-item index="/clzl">陈列展览</el-menu-item>
-          <el-menu-item index="/sc">收藏</el-menu-item>
-          <el-menu-item index="/cg">参观</el-menu-item>
-          <el-menu-item index="/hd" > <template #title>活动</template></el-menu-item>
-          <el-menu-item index="/xx" >学习</el-menu-item>
-          <el-menu-item index="/yj" >研究</el-menu-item>
+          <el-menu-item index="/spm">文档与社区</el-menu-item>
+          <el-menu-item index="/benefit">权益中心</el-menu-item>
+          <el-menu-item index="/price">定价</el-menu-item>
+          <el-menu-item index="/about" > <template #title>了解熵渊</template></el-menu-item>
         </el-menu>
       </el-header>
 
