@@ -13,20 +13,26 @@
         >
           <div class="logo" style="width: 10%;" >
             <router-link to="/">
-              <span style="width: 240px; position: absolute; top: 20px; left: 60px; ">熵渊-数字智能化生产工具</span>
-              <img  src="./assets/logo.png" style="height: 50px;" alt />
+              <span style="width: 240px; position: absolute; top: 20px; left: 60px; font-size: 21px;">熵渊科技</span>
+              <img  src="./assets/logo.png" style="height: 52px;" alt />
             </router-link>
           </div>
-          <el-menu-item index="/" >首页</el-menu-item>
+
+          <el-sub-menu index="/">
+            <template #title>产品</template>
+            <el-sub-menu>
+              <template #title>To B 聚焦场景解决方案</template>
+              <el-menu-item index="/tob/datamanage" >数据资产管理</el-menu-item>
+              <el-menu-item index="/tob/aidataanalysis" >AI数据分析应用</el-menu-item>
+              <el-menu-item index="/tob/datamodel" >数据建模</el-menu-item>
+              <el-menu-item index="/tob/bigdata" >大数据应用</el-menu-item>
+            </el-sub-menu>
+
+          </el-sub-menu>
           <el-sub-menu index="/about" >
-            <template #title>关于我们</template>
+            <template #title>解决方案</template>
             <el-menu-item index="/about/gk">概況</el-menu-item>
             <el-menu-item index="/about/ls">历史</el-menu-item>
-            <el-menu-item index="/about/zjjs">专家介绍</el-menu-item>
-            <el-menu-item index="/about/yzzc">院长致辞</el-menu-item>
-            <el-menu-item index="/about/mhgs">幕后故事</el-menu-item>
-            <el-menu-item index="/about/bwgzy">博物馆之友</el-menu-item>
-            <el-menu-item index="/about/xwzx">新闻资讯</el-menu-item>
           </el-sub-menu>
 
           <el-menu-item index="/clzl">陈列展览</el-menu-item>
@@ -271,6 +277,10 @@ li.el-menu-item{
 }
 div.el-sub-menu__title {
   font-size: 18px;
+}
+
+.el-sub-menu >> .el-menu-item{
+  font-size: 15px;
 }
 
 </style>
