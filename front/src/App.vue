@@ -28,11 +28,12 @@
               <el-menu-item index="/tob/bigdata" >大数据应用</el-menu-item>
             </el-sub-menu>
             <el-sub-menu>
-              <template #title>To c</template>
-              <el-menu-item index="/toc/datamanage" >数据资产管理</el-menu-item>
-              <el-menu-item index="/toc/aidataanalysis" >AI数据分析应用</el-menu-item>
-              <el-menu-item index="/toc/datamodel" >数据建模</el-menu-item>
-              <el-menu-item index="/toc/bigdata" >大数据应用</el-menu-item>
+              <template #title>To c聚焦效率工具</template>
+              <el-menu-item index="/toc/datamodel" >数据建模工具</el-menu-item>
+              <el-menu-item index="/toc/paintpanel" >白板绘画工具</el-menu-item>
+              <el-menu-item index="/toc/codegeneration" >代码生成工具</el-menu-item>
+              <el-menu-item index="/toc/databaseclient" >数据库客户端工具</el-menu-item>
+              <el-menu-item index="/toc/aiknowledge" >AI知识库工具</el-menu-item>
             </el-sub-menu>
           </el-sub-menu>
           <el-sub-menu index="/solution" >
